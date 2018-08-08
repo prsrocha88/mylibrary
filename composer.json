@@ -3,6 +3,7 @@
     "description": "Boilerplate package for creating other packages.",
     "keywords": ["template", "composer", "package"],
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Paulo Rocha",
@@ -11,7 +12,6 @@
     ],
     "type": "project",
     "require": {
-        "prsrocha/composer-library-template": "dev-master@dev",
 		"php": ">=7.1"
     },
     "require-dev": {
@@ -21,11 +21,5 @@
         "psr-4": {
             "Prsrocha\\Template\\": "src/"
         }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/prsrocha88/mylibrary"
-        }
-    ]
+    }
 }
